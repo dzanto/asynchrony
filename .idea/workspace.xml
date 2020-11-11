@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c452112-d679-4832-8a18-8c3861171018" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../asynchronous_python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../asynchronous_python/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../asynchronous_python/select_and_event_loop.py" beforeDir="false" afterPath="$PROJECT_DIR$/../asynchronous_python/select_and_event_loop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async_gens.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selectors_.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +20,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../asynchronous_python" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1k5UOoHBRu48trxovXOA3mFaJKl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -29,10 +31,31 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../asynchronous_python" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Python.select_and_event_loop (1)">
+  <component name="RunManager" selected="Python.generators">
+    <configuration name="generators" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="asynchronous_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/generators.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="select_and_event_loop (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="asynchronous_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -41,11 +64,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../asynchronous_python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../asynchronous_python/select_and_event_loop.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/select_and_event_loop.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -62,7 +85,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../asynchronous_python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -83,7 +106,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../asynchronous_python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -98,6 +121,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.generators" />
         <item itemvalue="Python.select_and_event_loop (1)" />
         <item itemvalue="Python.select_and_event_loop" />
         <item itemvalue="Python.sockets" />
@@ -136,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604999066051</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="select and event_loop done">
+      <created>1605007976992</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605007976992</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,7 +175,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -153,13 +186,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="select" />
     <MESSAGE value="select1" />
-    <option name="LAST_COMMIT_MESSAGE" value="select1" />
+    <MESSAGE value="select and event_loop done" />
+    <option name="LAST_COMMIT_MESSAGE" value="select and event_loop done" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="645" y="136" key="CommitChangelistDialog2" timestamp="1604999065517">
+    <state x="645" y="136" width="691" height="895" key="CommitChangelistDialog2" timestamp="1605007976505">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="645" y="136" key="CommitChangelistDialog2/62.0.1858.1080@62.0.1858.1080" timestamp="1604999065517" />
+    <state x="645" y="136" width="691" height="895" key="CommitChangelistDialog2/62.0.1858.1080@62.0.1858.1080" timestamp="1605007976505" />
     <state x="771" y="281" key="FileChooserDialogImpl" timestamp="1604998820453">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
@@ -168,25 +202,25 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="861" y="433" key="Github.ShareDialog/62.0.1858.1080@62.0.1858.1080" timestamp="1604999136514" />
-    <state width="1837" height="204" key="GridCell.Tab.0.bottom" timestamp="1605007009570">
+    <state width="1837" height="204" key="GridCell.Tab.0.bottom" timestamp="1605100068023">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1837" height="204" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1605007009570" />
-    <state width="1837" height="204" key="GridCell.Tab.0.center" timestamp="1605007009570">
+    <state width="1837" height="204" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1605100068023" />
+    <state width="1837" height="204" key="GridCell.Tab.0.center" timestamp="1605100068023">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1837" height="204" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1605007009570" />
-    <state width="1837" height="204" key="GridCell.Tab.0.left" timestamp="1605007009570">
+    <state width="1837" height="204" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1605100068023" />
+    <state width="1837" height="204" key="GridCell.Tab.0.left" timestamp="1605100068023">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1837" height="204" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1605007009570" />
-    <state width="1837" height="204" key="GridCell.Tab.0.right" timestamp="1605007009570">
+    <state width="1837" height="204" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1605100068023" />
+    <state width="1837" height="204" key="GridCell.Tab.0.right" timestamp="1605100068023">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1837" height="204" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1605007009570" />
-    <state x="583" y="273" key="Vcs.Push.Dialog.v2" timestamp="1604999082924">
+    <state width="1837" height="204" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1605100068023" />
+    <state x="583" y="273" key="Vcs.Push.Dialog.v2" timestamp="1605007983816">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="583" y="273" key="Vcs.Push.Dialog.v2/62.0.1858.1080@62.0.1858.1080" timestamp="1604999082924" />
+    <state x="583" y="273" key="Vcs.Push.Dialog.v2/62.0.1858.1080@62.0.1858.1080" timestamp="1605007983816" />
   </component>
 </project>
