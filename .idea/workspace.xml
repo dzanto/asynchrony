@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c452112-d679-4832-8a18-8c3861171018" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/coroutines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/delegation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async_get_images.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async_with_asyncio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async_with_gen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asyncio_async_await.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/get_images.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/asynchronous_python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/asynchronous_python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/async_gens.py" beforeDir="false" afterPath="$PROJECT_DIR$/async_gens.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +27,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1k5UOoHBRu48trxovXOA3mFaJKl" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -32,10 +38,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.async_gens">
-    <configuration name="async_gens" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.async_with_asyncio">
+    <configuration name="async_get_images" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="asynchronous_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -47,7 +53,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/async_gens.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/async_get_images.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -56,7 +62,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="generators" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="async_with_asyncio" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="asynchronous_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -68,7 +74,70 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/generators.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/async_with_asyncio.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="async_with_gen" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="asynchronous_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/async_with_gen.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="asyncio_async_await" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="asynchronous_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/asyncio_async_await.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="get_images" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="asynchronous_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Anton\PycharmProjects\asynchronous_python\get_images.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -98,55 +167,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="select_and_event_loop" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="asynchronous_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Anton\PycharmProjects\asynchronous_python\select_and_event_loop.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="sockets" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="asynchronous_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Anton\PycharmProjects\asynchronous_python\sockets.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.async_gens" />
-        <item itemvalue="Python.generators" />
-        <item itemvalue="Python.select_and_event_loop (1)" />
-        <item itemvalue="Python.select_and_event_loop" />
-        <item itemvalue="Python.sockets" />
+        <item itemvalue="Python.async_with_asyncio" />
+        <item itemvalue="Python.async_with_gen" />
+        <item itemvalue="Python.async_get_images" />
+        <item itemvalue="Python.async_get_images" />
+        <item itemvalue="Python.asyncio_async_await" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605102733022</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="coroutines.py">
+      <created>1605170166042</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605170166042</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,13 +251,14 @@
     <MESSAGE value="select1" />
     <MESSAGE value="select and event_loop done" />
     <MESSAGE value="async_gens.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="async_gens.py" />
+    <MESSAGE value="coroutines.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="coroutines.py" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="645" y="136" width="691" height="895" key="CommitChangelistDialog2" timestamp="1605102732483">
+    <state x="645" y="136" width="691" height="895" key="CommitChangelistDialog2" timestamp="1605170165481">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="645" y="136" width="691" height="895" key="CommitChangelistDialog2/62.0.1858.1080@62.0.1858.1080" timestamp="1605102732483" />
+    <state x="645" y="136" width="691" height="895" key="CommitChangelistDialog2/62.0.1858.1080@62.0.1858.1080" timestamp="1605170165481" />
     <state x="771" y="281" key="FileChooserDialogImpl" timestamp="1604998820453">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
@@ -232,25 +267,29 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="861" y="433" key="Github.ShareDialog/62.0.1858.1080@62.0.1858.1080" timestamp="1604999136514" />
-    <state width="1213" height="204" key="GridCell.Tab.0.bottom" timestamp="1605164399129">
+    <state width="1837" height="321" key="GridCell.Tab.0.bottom" timestamp="1605187416096">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1213" height="204" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1605164399129" />
-    <state width="1213" height="204" key="GridCell.Tab.0.center" timestamp="1605164399129">
+    <state width="1837" height="321" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1605187416096" />
+    <state width="1837" height="321" key="GridCell.Tab.0.center" timestamp="1605187416096">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1213" height="204" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1605164399129" />
-    <state width="1213" height="204" key="GridCell.Tab.0.left" timestamp="1605164399129">
+    <state width="1837" height="321" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1605187416096" />
+    <state width="1837" height="321" key="GridCell.Tab.0.left" timestamp="1605187416096">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1213" height="204" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1605164399129" />
-    <state width="1213" height="204" key="GridCell.Tab.0.right" timestamp="1605164399129">
+    <state width="1837" height="321" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1605187416096" />
+    <state width="1837" height="321" key="GridCell.Tab.0.right" timestamp="1605187416096">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1213" height="204" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1605164399129" />
-    <state x="583" y="273" key="Vcs.Push.Dialog.v2" timestamp="1605170148798">
+    <state width="1837" height="321" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1605187416096" />
+    <state x="492" y="182" key="SettingsEditor" timestamp="1605181794947">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="583" y="273" key="Vcs.Push.Dialog.v2/62.0.1858.1080@62.0.1858.1080" timestamp="1605170148798" />
+    <state x="492" y="182" key="SettingsEditor/62.0.1858.1080@62.0.1858.1080" timestamp="1605181794947" />
+    <state x="583" y="273" key="Vcs.Push.Dialog.v2" timestamp="1605170171631">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="583" y="273" key="Vcs.Push.Dialog.v2/62.0.1858.1080@62.0.1858.1080" timestamp="1605170171631" />
   </component>
 </project>
