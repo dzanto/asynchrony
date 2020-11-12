@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c452112-d679-4832-8a18-8c3861171018" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/async_gens.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selectors_.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coroutines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delegation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async_gens.py" beforeDir="false" afterPath="$PROJECT_DIR$/async_gens.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +34,28 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Python.generators">
+  <component name="RunManager" selected="Python.async_gens">
+    <configuration name="async_gens" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="asynchronous_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/async_gens.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="generators" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="asynchronous_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,6 +142,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.async_gens" />
         <item itemvalue="Python.generators" />
         <item itemvalue="Python.select_and_event_loop (1)" />
         <item itemvalue="Python.select_and_event_loop" />
@@ -167,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605007976992</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="async_gens.py">
+      <created>1605102733022</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605102733022</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,13 +216,14 @@
     <MESSAGE value="select" />
     <MESSAGE value="select1" />
     <MESSAGE value="select and event_loop done" />
-    <option name="LAST_COMMIT_MESSAGE" value="select and event_loop done" />
+    <MESSAGE value="async_gens.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="async_gens.py" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="645" y="136" width="691" height="895" key="CommitChangelistDialog2" timestamp="1605007976505">
+    <state x="645" y="136" width="691" height="895" key="CommitChangelistDialog2" timestamp="1605102732483">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="645" y="136" width="691" height="895" key="CommitChangelistDialog2/62.0.1858.1080@62.0.1858.1080" timestamp="1605007976505" />
+    <state x="645" y="136" width="691" height="895" key="CommitChangelistDialog2/62.0.1858.1080@62.0.1858.1080" timestamp="1605102732483" />
     <state x="771" y="281" key="FileChooserDialogImpl" timestamp="1604998820453">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
@@ -202,25 +232,25 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="861" y="433" key="Github.ShareDialog/62.0.1858.1080@62.0.1858.1080" timestamp="1604999136514" />
-    <state width="1837" height="204" key="GridCell.Tab.0.bottom" timestamp="1605100068023">
+    <state width="1213" height="204" key="GridCell.Tab.0.bottom" timestamp="1605164399129">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1837" height="204" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1605100068023" />
-    <state width="1837" height="204" key="GridCell.Tab.0.center" timestamp="1605100068023">
+    <state width="1213" height="204" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1605164399129" />
+    <state width="1213" height="204" key="GridCell.Tab.0.center" timestamp="1605164399129">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1837" height="204" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1605100068023" />
-    <state width="1837" height="204" key="GridCell.Tab.0.left" timestamp="1605100068023">
+    <state width="1213" height="204" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1605164399129" />
+    <state width="1213" height="204" key="GridCell.Tab.0.left" timestamp="1605164399129">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1837" height="204" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1605100068023" />
-    <state width="1837" height="204" key="GridCell.Tab.0.right" timestamp="1605100068023">
+    <state width="1213" height="204" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1605164399129" />
+    <state width="1213" height="204" key="GridCell.Tab.0.right" timestamp="1605164399129">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1837" height="204" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1605100068023" />
-    <state x="583" y="273" key="Vcs.Push.Dialog.v2" timestamp="1605007983816">
+    <state width="1213" height="204" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1605164399129" />
+    <state x="583" y="273" key="Vcs.Push.Dialog.v2" timestamp="1605170148798">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="583" y="273" key="Vcs.Push.Dialog.v2/62.0.1858.1080@62.0.1858.1080" timestamp="1605007983816" />
+    <state x="583" y="273" key="Vcs.Push.Dialog.v2/62.0.1858.1080@62.0.1858.1080" timestamp="1605170148798" />
   </component>
 </project>
